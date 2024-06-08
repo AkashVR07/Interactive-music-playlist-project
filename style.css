@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    height:70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #ffff;
+}
+/*card*/
+.form{
+    margin-left: 80px;
+    margin-top: 210px;
+    width: 550px;
+     height: 500px;
+    max-width: 440px;
+    width: 100%;
+    padding: 30px;
+    border-radius:15px;
+    background-color: #ffff;
+    box-shadow: 1px 9px 18px 4px rgba(0, 0, 0, 0.25);
+}
+header{
+    color: black;
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+form{
+    margin-top:4px;
+    
+    
+}
+.form .field{
+    height: 65px;
+    width: 300px;
+   padding-top: 30px;
+
+
+}
+.field input{
+    height: 100%;
+    width: 100%;
+
+  
+}
+.next{
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    transform: translate(15%, 15%);
+    align-items: center;
+        justify-content: center;
+}
+.field input{
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    transform: translate(15%, -10%);
+     
+}
+.signupimg{
+    padding-top: 210px;
+    width: 550px;
+    height: 600px;
+    justify-content: center;
+}
+.signupimg{
+    margin: 0 25px;
+    justify-content: space-between;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color:#d4d4d4 ;
+}
+.line::before{
+    content: 'or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #FFF;
+    color: #232836;
+    padding: 0 15px;
+}
+
+ #container {
+     text-align: center;
+ }
+
+ .btn {
+     display: inline-block;
+     padding: 10px 20px;
+     font-size: 16px;
+     margin: 10px;
+     cursor: pointer;
+ }
+
+ #googleBtn {
+    background-color: white;
+        color: gray;
+        border: 1px solid black;
+     border-radius: 50px;
+    transform: translate(0%, -30%);
+    width: 300px;
+ }
+
+ #facebookBtn {
+    width: 300px;
+     background-color:white;
+     color:gray;
+     border: 1px solid black;
+    border-radius: 50px;
+    transform: translate(0%, -30%);
+ }
+ .form-link{
+    transform: translate(25%, -30%);
+    font-size: 12px;
+ }
+ .icon {
+     transform: translate(10%, 20%);
+     text-align: left;
+     justify-content: left;
+ }
+ .findsong{
+    width: 950px;
+        height: 500px;
+    border-radius: 20px;
+        border: 1px solid #000;
+        background: #000;
+        box-shadow: 20px 20px 50px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        justify-content: center;
+        transform: translate(17%, 15%);
+ }
+ h6{
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 50px;
+
+ }
+ p1{
+    color: #FFF;
+    
+ }
+ /* dropdown */
+ .dropdown{
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+ }
+ .dropdown *{
+    box-sizing: border-box;
+ }
+ .select{
+    background-color: #FFF;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FFF;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s ;
+ }
+ .select-clicked{
+    border: 1px solid #FFF;
+    box-shadow: 0 0 0.8em #ffff;
+ }
+.select:hover{
+    background-color:#dbcfcf ;
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #FFF;
+    transition: 0.3s;
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border:1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top:3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: #2a2d35;
+}
+.active{
+    background: #23242a;
+}
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+.song{
+    background-image: url(song.svg)
+  
+}

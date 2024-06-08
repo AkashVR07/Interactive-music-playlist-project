@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Music Playlist Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <section class="container forms">
+    <div class="form login">
+        <header>Sign Up to Enjoy the music</header>
+        <form action="#">
+            <div class="field input-field img">
+               
+                <input type="email" 
+                placeholder="Email Address or Mobile Number" class="input">
+            </div>
+            <div class="field input-field">
+                <input type="password" placeholder="password" class="password">
+            </div>
+            <div class="field button-field">
+               <button class="next">Next</button>
+            </div>
+            <div class="line"></div>
+           
+            <div id="container">
+                
+            
+                <!-- Google Sign Up Button -->
+                <div id="googleBtn" class="btn" onclick="signInWithGoogle()">
+                    <img src="icon2.svg" class="icon" alt="" width="20px" height="20px">
+                    Sign Up with Google
+                </div>
+            
+                <!-- Facebook Sign Up Button -->
+                <div id="facebookBtn" class="btn" onclick="signInWithFacebook()">
+                   
+                    <img src="icon1.svg" class="icon" alt="" width="25px" height="25px">
+                    Sign Up with Facebook
+                </div>
+            </div>
+             <div class="form-link">
+                <span>Already have an account?<a href="#" class="signup-link">Login</a></span>
+            </div>
+        </form>
+    </div>
+    <div>
+        <img class="signupimg" src="image 2.svg" alt="image">
+    </div>
+ </section>
+
+</body>
+
+</html>
